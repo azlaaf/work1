@@ -1,0 +1,58 @@
+body {
+    background: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    background: url('ressources/a7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+}
+h1{
+
+
+}
+#titre1{
+	margin-top:15px;
+	margin-left: 40px;
+	margin-right: 40px;
+
+}
+#parag1{
+	margin-top:150px;
+	margin-left: 40px;
+	font-size: 20px;
+}
+#parag2{
+	margin-left: 40px;
+	font-size: 20px;
+}
+#parag3{
+    
+	margin-left: 40px;
+	font-size: 20px;
+	margin-bottom:80px;
+
+}
+.container{
+    margin-top:10px;
+}
+.container1{
+    margin-top:20px;
+}
+
+p{
+	color : #fff
+}
+.container .row .col-lg-3 button{
+    height:50%;
+}
+.pad{
+    align-items: center;
+    display:inline-flex;
+      margin-left: 35%;
+}
+.pad {
+  margin-top: 25px;
+    
+}

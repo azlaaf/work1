@@ -1,0 +1,61 @@
+body background css
+body{
+	padding: 0;
+	margin: 0;
+	background-size: cover;
+}
+
+rotate image-01 css
+.rotate_01{
+	display: block;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 50px;
+	height: 50px;
+	margin: -40px 40px 20px -380px;
+	-webkit-transition: -webkit-transform 1s;
+}
+.rotate_01:hover{
+	-webkit-transform: rotate(360deg) translateZ(0);
+}
+
+rotate image-02 css
+.rotate_02{
+	display: block;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 50px;
+	height: 50px;
+	margin: -85px 0 0 -360px;
+}
+.rotate_02:hover{
+	-webkit-animation: spin 1s linear infinite;
+	-moz-animation: spin 1s linear infinite;
+	animation: spin 1s linear infinite;
+}
+
+rotate image-03 css
+.rotate_03{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 50px;
+	height: 50px;
+	margin: -33px 0 0 -310px;
+	-webkit-animation: spin 1s linear infinite;
+	-moz-animation: spin 1s linear infinite;
+	animation: spin 1s linear infinite;
+}
+
+use keyframes
+@-webkit-keyframes spin{
+	100%{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin{
+	100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin{
+	100%{-webkit-transform: rotate(360deg);}
+}

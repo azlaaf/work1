@@ -1,0 +1,107 @@
+.main{
+    padding:0% 1%;
+}
+.stock-buttons {
+    display: grid !important;
+    grid-template-columns: 50% 34% 16% !important; 
+   
+}
+.stock-buttons button{
+    width: 130px !important;
+    text-align: start;
+}
+.search-input{
+    height: 35px;
+    width: 90%;
+   
+}
+
+/*for invoice items*/
+.invoice-buttons{
+    width: 60%;
+    display: grid !important;
+    grid-template-columns: 33% 33% 33% !important; 
+    margin-top: 2%;
+    margin-bottom: -6%;
+    padding-left: 6px;
+    
+}
+.list-invoice-buttons{
+    width: 60%;
+    margin-bottom: -4%;
+    overflow: hidden;
+}
+/*this style about searsh field in list-invoice and list-client  */
+.dataTables_filter{
+    float: right !important;
+    }
+/*add item*/
+.none1{
+    display: none !important;
+}
+.receive{
+    margin-left: 5% !important;
+}
+.receive>form label{
+    font-size: 17px;
+}/*for invoice page*/
+.invoice-buttons{
+    max-width: 80% !important;
+    display: grid !important;
+    grid-template-columns: 20% 20% 20% 40% !important; 
+  grid-column-gap: 10px;
+}
+
+/*for save invoice*/
+.save_invoice{
+    /*margin-left: 20px;*/
+    /*border: 1px solid;*/
+    display:none; 
+
+}
+.save_invoice p{
+    border: 1px solid;
+}
+.print_button{
+    
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-column-gap: 20px !important;
+    margin-bottom: 20px;
+}
+.btn-close1{
+    width: 10%;
+  margin-left: 90%; 
+  
+}
+@media screen and (max-width: 993px) {
+    .stock-buttons {
+        grid-template-columns: 60% 40% !important; 
+    }
+    .stock-buttons-left{
+        display: flex !important;
+        flex-direction: column;
+    }
+    .stock-buttons a{
+        padding: 6px 0 !important;
+    }
+    .invoice-buttons{
+        max-width: 40% !important;
+    display: flex  !important;
+    flex-direction: column  !important;
+    justify-content: space-between !important;
+}
+  }
+  
+  @media screen and (max-width: 900px){
+    .container-md{
+         margin-left: -9%;
+         justify-content: center !important;
+        }
+}
+@media screen and (max-width: 1000px){
+    .container-md{
+         margin-left: -5%;
+         padding: 0 10px;
+        }
+}

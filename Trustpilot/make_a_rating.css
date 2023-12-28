@@ -1,0 +1,54 @@
+h1{
+	align-content: center;
+ 	padding-top: 10px;
+	padding-bottom: 10px;
+	color : #fff
+
+}
+#titre1{
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+
+}
+.input1{
+	width: 200 px;
+	height: 30px;
+	background-color: white;
+}
+.text{
+	width: 700px;
+	height: 200px;
+}
+#text_1{
+	background-color: lightblue;
+}
+.dis{
+    display:flex;
+	margin-top: 10px;
+}
+.input2{
+	width: 120px;
+	height: 30px;
+}
+table{
+	border: 0px blue outset;
+}
+th{
+	margin-left: 10px;
+	padding-left: 10px;
+	border: 0px blue outset;
+}
+body{
+	 background: url('ressources/BM.jpg');
+	 background-size: 100%;
+}
+TEXTAREA{
+	border: 3px blue outset;
+}
+.input1 {
+	border: 3px blue outset;
+}
+.dis{
+    padding:0px;
+}
